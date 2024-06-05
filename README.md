@@ -73,7 +73,7 @@ docker stop deepseek-api
 
 ### Nginx反代优化
 
-如果您正在使用Nginx反向代理deepseek-free-api，请添加以下配置项优化流的输出效果，优化体验感。
+如果您正在使用Nginx反向代理deepseek-api，请添加以下配置项优化流的输出效果，优化体验感。
 
 ```nginx
 # 关闭代理缓冲。当设置为off时，Nginx会立即将客户端请求发送到后端服务器，并立即将从后端服务器接收到的响应发送回客户端。
